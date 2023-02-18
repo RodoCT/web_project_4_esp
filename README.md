@@ -1,16 +1,25 @@
-# Proyecto 4: Alrededor de los Estados Unidos
+# Sprint 4: Around the U.S.
+**Desarrollador: Rodolfo Ismael Cante Tapia**
 
 ### Descripción general
 
-* Figma
-* Imágenes
+Proyecto interactivo en el cual se aplicarón conocimientos nuevos como js. 
 
 **Figma**
 
-* [Enlace al proyecto en Figma](https://www.figma.com/file/LDMgqWesKpQkIwhOfEBuTS/WEB%2C-Sprint-5%3A-Around-The-U.S.-%7C-desktop-%2B-mobile?node-id=0%3A1)
+- [Enlace al proyecto en Figma](https://www.figma.com/file/zXzLVGc4KNVm3FMTsAnQnH/WEB%2C-Sprint-4%3A-Alrededor-de-los-EEUU-%7C-desktop-%2B-mobile?node-id=20405%3A205&t=lgQkKMUoqEAPM19w-1)
 
-**Imágenes**
+### Funcionalidad y tecnologías demostradas
 
-A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido. 
+- Figma
+- Metodología BEM
+- Estructura de archivos BEM
+- Optimización de imágenes
+- CSS Grid
+- Flexbox
+- Diseño responsivo/adaptativo
+- HTML, CSS y JavaScript
 
-¡Esperamos que te diviertas con JavaScript!
+### GitPage
+
+- [Enlace de la página](https://pablocero17.github.io/web_project_4_esp/)

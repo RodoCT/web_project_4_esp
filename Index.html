@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rodolfo Cante</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="page">
+    <div class="page__container">
+      <header class="header">
+        <img src="./images/logo.svg" alt="logo" class="header__logo" />
+      </header>
+
+      <main class="content">
+        <section class="profile">
+          <img
+            src="./images/avatar.png"
+            alt="Avatar profile"
+            class="profile__avatar"
+          />
+          <div class="profile__info">
+            <div class="profile__container">
+              <h3 class="profile__container profile__name">Jacques Cousteau</h3>
+            </div>
+            <button
+              class="profile__edit"
+              type="button"
+              aria-label="Editar perfil"
+            ></button>
+            <p class="profile__description">Explorador</p>
+          </div>
+          <button
+            class="profile__add"
+            type="button"
+            aria-label="Agregar Foto"
+          ></button>
+        </section>
+
+        <section class="elements">
+          <ul class="cards">
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/valle.png"
+                alt="Valle de Yosemite"
+              />
+              <div class="card__container">
+                <h4 class="card__title">Valle de Yosemite</h4>
+                <button
+                  class="card__heart"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/lago.png"
+                alt="Lago Louise"
+              />
+              <div class="card__container">
+                <h4 class="card__title">Lago Louise</h4>
+                <button
+                  class="card__heart"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/montañas.png"
+                alt="Montañas Calvas"
+              />
+              <div class="card__container">
+                <h4 class="card__title">Montañas Calvas</h4>
+                <button
+                  class="card__heart"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/latemar.png"
+                alt="Latemar"
+              />
+              <div class="card__container">
+                <h4 class="card__title">Latemar</h4>
+                <button
+                  class="card__heart"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/vanoise.png"
+                alt="Vanoise Nationa..."
+              />
+              <div class="card__container">
+                <h4 class="card__title">Vanoise Nationa...</h4>
+                <button
+                  class="card__heart"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                class="card__image"
+                src="./images/braies.png"
+                alt="Lago di Braies"
+              />
+              <div class="card__container">
+                <h4 class="card__title">Lago di Braies</h4>
+                <button
+                  class="card__heart"
+                  type="button"
+                  aria-label="Like"
+                ></button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <h3 class="footer__copyright">© 2023. Alrededor de los EEUU</h3>
+      </footer>
+    </div>
+    <div class="popup popup_type_edit-profile">
+      <div class="form popup__container">
+        <h3 class="popup__title">Editar perfil</h3>
+        <button type="button" aria-label="Close" class="popup__close"></button>
+        <form class="form__profile-edit" name="editProfile">
+          <input
+            aria-label="Nombre"
+            type="text"
+            class="form__input form__input_type_name"
+            name="profileName"
+            value="Jacques Cousteau"
+            placeholder="Nombre"
+            minlength="2"
+            maxlength="40"
+            required
+          />
+          <input
+            aria-label="Acerca de mí"
+            type="text"
+            class="form__input form__input_type_description"
+            name="profileAboutMe"
+            value="Explorer"
+            placeholder="Acerca de mí"
+            minlength="2"
+            maxlength="200"
+            required
+          />
+          <button type="submit" class="form__submit">Guardar</button>
+        </form>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>
