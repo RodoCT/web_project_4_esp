@@ -22,4 +22,4 @@ Proyecto interactivo en el cual se aplicarón conocimientos nuevos como js.
 
 ### GitPage
 
-- [Enlace de la página](https://pablocero17.github.io/web_project_4_esp/)
+- [Enlace de la página](https://rodoct.github.io/web_project_4_esp/)
