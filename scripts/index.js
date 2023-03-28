@@ -32,7 +32,7 @@ const imageLinkInput = document.querySelector(".form__input_type_url");
 const cardTemplate = document
   .querySelector(".card-template")
   .content.querySelector(".card");
-const list = document.querySelector(".cards__group");
+const cardsGroup = document.querySelector(".cards__group");
 
 //Initial cards
 const initialCards = [
@@ -65,7 +65,7 @@ const initialCards = [
 // Initial cards on page
 initialCards.forEach((data) => {
   const startingCards = addCard(data.name, data.link);
-  list.append(startingCards);
+  cardsGroup.append(startingCards);
 });
 
 //Add Cards Funtion
@@ -150,7 +150,7 @@ function submitProfileInfo(e) {
 function addPlace(e) {
   e.preventDefault();
   const newCard = addCard(titleInput.value, imageLinkInput.value);
-  list.prepend(newCard);
+  cardsGroup.prepend(newCard);
   newCardForm.reset();
   togglePopup(newCardPopup);
 }
