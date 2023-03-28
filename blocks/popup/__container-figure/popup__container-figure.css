@@ -1,0 +1,6 @@
+.popup__container-figure {
+    background-color: transparent;
+    max-width: 75vw;
+    max-height: 75vh;
+    padding: 15px;
+}
